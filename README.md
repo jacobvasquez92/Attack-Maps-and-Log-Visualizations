@@ -1,6 +1,6 @@
 # Attack-Maps-and-Log-Visualizations
 ## **World Map Visualization Scenarios**  
-The goal is to create world map visualization workbooks, likely using Microsoft Sentinel Workbooks, a Security Information and Event Management (SIEM) tool, 
+The goal is to create world map visualization workbooks using Microsoft Sentinel Workbooks, a Security Information and Event Management (SIEM) tool, 
 to display the geographical origins of various activities based on the source IP address.
 
 Here's a breakdown of the scenarios and what each visualization will show:
