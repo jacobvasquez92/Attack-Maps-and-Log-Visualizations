@@ -1,5 +1,5 @@
 # Malicious Traffic Entering the Network  
-## What This Map Demonstrates:  
+## What This Map Demonstrates  
 Geographical origin of known malicious traffic, often based on threat intelligence feeds matched 
 against the source IP. This provides a direct visualization of incoming threats.  
 
@@ -7,8 +7,11 @@ against the source IP. This provides a direct visualization of incoming threats.
  
  ---
 ## Scenarios to Correlate: Failures (Entra ID & VM) + Malicious Traffic  
-Insight Gained  
-- Targeted Attack Confirmation: High volumes of VM Authentication Failures or Entra ID Failures originating from an IP already flagged in the Malicious Traffic feed.
+### Insight Gained  
+- **Targeted Attack Confirmation:** High volumes of VM Authentication Failures or Entra ID Failures originating from an IP already flagged in the Malicious Traffic feed.
+  
+### Actionable Intelligence
+- Harden security policies for that VM/user; ensure NSGs/Firewalls are properly blocking the flagged malicious IPs.
  
 ## Query Used  
 
