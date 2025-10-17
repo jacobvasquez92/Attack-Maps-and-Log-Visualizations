@@ -10,7 +10,7 @@ This often highlights automated scanning and brute-force attempts targeting on-p
 ## Scenarios to Correlate: Failures ➡️ Success 
 ### Insight Gained  
 - **Credential Stuffing/Brute-Force Attack Confirmation:** A pattern of thousands of failures originating from one city/IP range, immediately followed by a successful login from a different or the same region, suggests the bad actor either moved or finally guessed the credentials.
-## Actionable Intelligence
+### Actionable Intelligence
 - Force password reset for the compromised user; block the successful IP if it doesn't match a legitimate known location (e.g., a VPN).
 
 
