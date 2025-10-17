@@ -1,5 +1,5 @@
 # VM Authentication Failures  
-## What This Map Demonstrates:  
+## What This Map Demonstrates  
 Geographical spread of failed authentication attempts against Virtual Machines (RDP, SSH, etc.). 
 This often highlights automated scanning and brute-force attempts targeting on-prem or IaaS assets.  
 
