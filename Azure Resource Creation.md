@@ -1,5 +1,5 @@
 # Azure Resource Creation  
-## What The Map Demonstrates:  
+## What The Map Demonstrates  
 Locations from which new Azure resources (VMs, storage accounts, etc.) are being provisioned. This is key for 
 tracking administrative activity and identifying suspicious, non-admin resource deployments.  
 
