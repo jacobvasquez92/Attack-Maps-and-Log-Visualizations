@@ -1,5 +1,5 @@
 # Entrad ID (Azure) Authentication Failures 
-## What This Map Demonstrates: 
+## What This Map Demonstrates 
 Geographical spread of unsuccessful attempts to access cloud resources. High volume from specific regions can indicate brute-force or credential-stuffing attacks.
 
 ### Page 1
