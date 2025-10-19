@@ -15,7 +15,7 @@ Here's a breakdown of the scenarios and what each visualization will show:
 ---
 
 # **Background**
-Attack maps and visualizations are a product of access to [the Cyber Range](https://www.skool.com/cyber-rang).   
+Attack maps and visualizations are a product of access to [the Cyber Range](https://www.skool.com/cyber-community).   
 
 Josh Madakor' The Cyber Range is effectively a shared virtual environment that simulates a live Security Operations Center (SOC) environment. It’s intended to give learners practice with actual enterprise-tools and network workflow, rather than only theoretical training.  
 
