@@ -12,4 +12,20 @@ Here's a breakdown of the scenarios and what each visualization will show:
 | [**Azure Resource Creation**](https://github.com/jacobvasquez92/Attack-Maps-and-Log-Visualizations/edit/main/Azure%20Resource%20Creation.md) | Azure Activity Logs (Resource Provider Operations) | Resource Deployment Events | Locations from which new Azure resources (VMs, storage accounts, etc.) are being provisioned. This is key for tracking administrative activity and identifying suspicious, non-admin resource deployments. |
 | [**VM Authentication Failures**](https://github.com/jacobvasquez92/Attack-Maps-and-Log-Visualizations/blob/main/VM%20Authentication%20Failures.md) | VM/Operating System Audit Logs (e.g., Windows Event Logs, Linux auth.log) | Failed VM Logins | Geographical spread of failed authentication attempts against Virtual Machines (RDP, SSH, etc.). This often highlights automated scanning and brute-force attempts targeting on-prem or IaaS assets. |
 | [**Malicious Traffic Entering the Network**](https://github.com/jacobvasquez92/Attack-Maps-and-Log-Visualizations/blob/main/Malicious-Traffic.md) | Firewall/Network Security Group (NSG) Logs, Intrusion Detection/Prevention System (IDS/IPS) Logs | Denied or Alerted Traffic | Geographical origin of known malicious traffic, often based on threat intelligence feeds matched against the source IP. This provides a direct visualization of incoming threats. |
+---
+
+# **Background**
+Attack maps and visualizations are a product of access to [the Cyber Range](https://www.skool.com/cyber-rang).   
+
+Josh Madakor' The Cyber Range is effectively a shared virtual environment that simulates a live Security Operations Center (SOC) environment. It’s intended to give learners practice with actual enterprise-tools and network workflow, rather than only theoretical training.  
+
+**Its purpose is two-fold:**  
+- To enable users with little or no prior cybersecurity experience to build tangible, resume-worthy projects and experience.   
+- To provide a collaborative learning community plus optional internship-style tasks, so that participants can demonstrate application of skills (not just knowledge) and make job-market progress. 
+# **Design & Scope**  
+## Architecture & Tools
+
+- The environment runs in the cloud — primarily via Microsoft Azure virtual machines, network configurations, and security tooling. 
+- Participants get access to fully licensed, enterprise-grade tools, including: Tenable Vulnerability Management for vulnerability scanning; Microsoft Sentinel for SIEM/Log Analytics; and Microsoft Defender for Endpoint (EDR) for endpoint detection & response. 
+- The shared environment means many users work concurrently in the same “live network” sandbox, generating traffic and logs that can be used for practical analysis. 
 
