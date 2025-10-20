@@ -15,17 +15,35 @@ Here's a breakdown of the scenarios and what each visualization will show:
 ---
 
 # **Background**
-Attack maps and visualizations are a product of access to [the Cyber Range](https://www.skool.com/cyber-community).   
+Attack maps and visualizations are a product of access to [the Cyber Range](https://www.skool.com/cyber-community).  
 
+<img width="125" height="100" alt="image" src="https://github.com/user-attachments/assets/5667f03a-c836-4602-977b-21e3a71e06cc" />
+  
 Josh Madakor's The Cyber Range is effectively a shared virtual environment that simulates a live Security Operations Center (SOC) environment. It’s intended to give learners practice with actual enterprise-tools and network workflow, rather than only theoretical training.  
 
 **Its purpose is two-fold:**  
 - To enable users with little or no prior cybersecurity experience to build tangible, resume-worthy projects and experience.   
-- To provide a collaborative learning community plus optional internship-style tasks, so that participants can demonstrate application of skills (not just knowledge) and make job-market progress. 
+- To provide a collaborative learning community plus optional internship-style tasks, so that participants can demonstrate application of skills (not just knowledge) and make job-market progress.
+
 # **Design & Scope**  
 ## Architecture & Tools
 
 - The environment runs in the cloud — primarily via Microsoft Azure virtual machines, network configurations, and security tooling. 
 - Participants get access to fully licensed, enterprise-grade tools, including: Tenable Vulnerability Management for vulnerability scanning; Microsoft Sentinel for SIEM/Log Analytics; and Microsoft Defender for Endpoint (EDR) for endpoint detection & response. 
-- The shared environment means many users work concurrently in the same “live network” sandbox, generating traffic and logs that can be used for practical analysis. 
+- The shared environment means many users work concurrently in the same “live network” sandbox, generating traffic and logs that can be used for practical analysis.
 
+## **Learning Workflow**  
+
+- **The curriculum is structured:** first build foundational knowledge (theory of cybersecurity, foundational concepts, IT fundamentals), then progress into hands-on labs in the Cyber Range, then the optional internship tasks.   
+
+- **Community features:** weekly live coaching sessions, community forums, peer interaction, resume/portfolio building courses, interview prep. 
+
+## **Key Resources & Value-Drivers**
+
+- **Enterprise tools:** Access to Tenable, Microsoft Sentinel, Defender for Endpoint, Azure VMs – tools that many entry-level training programs don’t offer.
+
+- **True hands-on sandbox:** Not simply tutorials, but an environment where you respond to real logs, network traffic, alerts, vulnerability findings; collaborate, potentially intern, and build actual applied experience.
+
+- **Job-market alignment:** The experience aims to be “resume-worthy” — the internship component can be listed on a CV; the community supports job-application strategy and interview prep.
+
+- **Community & peer support:** Being able to ask questions, see others’ progress, work alongside peers in a shared environment helps with motivation, accountability and practical skill-development.
