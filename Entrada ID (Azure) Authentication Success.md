@@ -1,4 +1,4 @@
-# Entrad ID (Azure) Authentication Success 
+# Entrada ID (Azure) Authentication Success 
 ## What This Map Demonstrates  
 Geographical spread of successful user access to cloud resources over a 30 day period. This helps establish a baseline for legitimate access. 
 
